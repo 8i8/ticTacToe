@@ -33,8 +33,6 @@ distclean: clean
 	rm -f -- $(EXE)
 	-rmdir --ignore-fail-on-non-empty -- $(OUTDIRS)
 
-#$(EXE): $(OBJS)
-
 $(EXE):	$(OBJS)
 	$(CC) -o $@ $(OBJS)
 

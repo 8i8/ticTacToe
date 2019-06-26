@@ -7,7 +7,7 @@
 
  Description : naughts and crosses / tic tac toe
 
-    Copyright (C) 2017 Iain Hill. 
+    Copyright (C) 2017 Iain Hill.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -25,7 +25,7 @@
  ============================================================================
  */
 
-/* TODO 
+/* TODO
  *  - Develop some form of instructions page,
  *  - Give access to settings.
  *  - Add a way for players to quit whilst the game is running.
@@ -65,7 +65,7 @@ void menu()
 	clearScreen();
 	ticTacToe();
 	sysOutMenu();
-	
+
 	while (!verif)
 	{
 		getchar();
@@ -115,7 +115,7 @@ void play(int firstRun)
 			}
 			coin = coinToss(2);
 
-			if (choice != coin) 
+			if (choice != coin)
 			{
 				player2WinsToss(PLAYER2);
 				break;
@@ -125,7 +125,7 @@ void play(int firstRun)
 
 			if (coin)
 				coin = 0;
-			else 
+			else
 				coin = 1;
 		}
 
@@ -178,4 +178,3 @@ void play(int firstRun)
 		}
 	}
 }
-

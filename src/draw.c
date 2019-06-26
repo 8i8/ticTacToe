@@ -25,7 +25,7 @@
  ============================================================================
      _   _     _____         _____           
     | |_(_) __|_   _|_ _  __|_   _|__   ___  
-    | __| |/ __|| |/ _` |/ __|| |/ _ \ / _ \ 
+    | __| |/ __|| |/ _` |/ __|| |/ _ \ / _ \
     | |_| | (__ | | (_| | (__ | | (_) |  __/ 
      \__|_|\___||_|\__,_|\___||_|\___/ \___| 
     
@@ -412,7 +412,6 @@ int clearScreen()
 	ioctl(0, TIOCGWINSZ , &max);
 	puts("\033[H\033[J");	/* Clear screen */
 	return max.ws_row;
-
 }
 
 /*
@@ -439,7 +438,7 @@ void sysOutMenu()
  * to hot water with it I am sure; It really is that civilised.
  */
 void sysOut(int write, int player) {
-/* 
+/*
  * If player is > 0 then -1; Corrects the value of 'player' for use in the
  * printf statement, that is, when the output is player dependant. 
  */

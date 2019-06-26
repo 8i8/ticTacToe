@@ -4,10 +4,10 @@
  Author      : Iain Hill
  Version     : 1
  Copyright   : GPL
- 
+
  Description : naughts and crosses / tic tac toe
 
-    Copyright (C) 2017 Iain Hill. 
+    Copyright (C) 2017 Iain Hill.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
